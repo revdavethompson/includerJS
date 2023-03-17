@@ -1,6 +1,6 @@
 {
   "name": "@worlduniting/includerjs",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "A bare bones module for including files in other files.",
   "author": "Rev. Dave Thompson",
   "main": "index.js",
