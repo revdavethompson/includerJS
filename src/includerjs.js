@@ -1,7 +1,7 @@
 import fs from 'fs';
 import path from 'path';
 
-const includeRegex = /^@include\s+(.*)$/;
+const includeRegex = /^\s*@include\s+(.*)$/;
 
 export default function includerjs(input, options = {}) {
     const basePath = options.basePath || '';
